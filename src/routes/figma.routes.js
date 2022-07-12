@@ -20,7 +20,7 @@ const postRequest = (app) => {
     let email = req.body.email;
     let ret = await figmaControllers.inviteMember(username, password, email);
     res.send(ret);
-    // exit();
+    exit();
   });
 }
 
