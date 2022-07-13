@@ -1,7 +1,6 @@
 
 const figmaControllers = require("../controllers/figma.controllers");
 const { exit } = require("process");
-const { username } = require("../controllers/credentials");
 
 const getRequest = (app) => {
   app.get("/users", async (req, res) => {
